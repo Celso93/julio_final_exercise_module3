@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test:report": "npx mocha --reporter mochawesome"
   },
   "keywords": [],
@@ -14,5 +16,10 @@
   "dependencies": {
     "mocha": "^11.7.5",
     "mochawesome": "^7.1.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^16.0.0"
   }
 }
