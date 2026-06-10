@@ -34,3 +34,10 @@ Relatório de testes com Mochawesome:
 ```bash
 npm run test:report
 ```
+
+## Execução em pipeline
+
+A pipeline possui 3 gatilhos de execução:
+- Push ou merge para a branch main
+- Execução manual
+- Execução agendada (07:00 UTC, segunda, quarta e sexta-feira)
