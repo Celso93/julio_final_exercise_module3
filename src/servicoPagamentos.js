@@ -36,7 +36,7 @@ export class servicoPagamento {
   }
   
   consultarUltimoPagamento() {
-    return this.#pagamentos[this.#pagamentos.length - 1]
+    return this.#pagamentos[this.#pagamentos.length - 1];
   }
 
 }
